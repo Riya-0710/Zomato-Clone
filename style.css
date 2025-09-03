@@ -4,7 +4,7 @@
     padding: 0;
 }
 .main{
-    background-image: url(Images/bg_img.avif);
+    background-image: url(bg_img.avif);
     width: 100%;
     height: 60vh;
     display: flex;
@@ -218,3 +218,4 @@ hr{
     margin-right: 350px;
     text-align: left;
 }
+
