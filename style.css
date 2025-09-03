@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-image: url(Images/bg_img.avif);
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+nav{
+    margin-left: 1050px;
+    margin-top: 20px;
+}
+a{
+    margin:10px ;
+    padding: 10px;
+    text-decoration: none;
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: azure;
+}
+.logo{
+    font-family: "Funnel Sans", sans-serif;
+    font-size: 85px;
+    color: azure;
+    font-weight: 950;
+    font-style: italic;
+    margin-top: 150px;
+    margin-left: 800px;
+}
+.text1{
+    color: azure;
+    font-family: "Funnel Sans", sans-serif;
+    margin-left: 695px;
+    font-size: 39px;
+    font-weight: lighter;
+    line-height: 60px;
+    justify-content: center;
+}
+.text2{
+     color: azure;
+    font-family: "Funnel Sans", sans-serif;
+    margin-left: 810px;
+    font-size: 39px;
+    font-weight: lighter;
+    line-height: 30px;
+    justify-content: center;
+}
+.flag1{
+    height: 30px;
+    width: 30px;
+}
+.next1{
+    font-family: "Funnel Sans", sans-serif;
+    color: black;
+    margin: 50px;
+    padding:50px;
+    font-weight: lighter;
+    font-size: 38px;
+    margin-left: 670px;
+    margin-top: -17px;
+}
+.para{
+    font-family: "Funnel Sans", sans-serif;
+    color: gray;
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+    margin: -55px 500px 0px 500px;
+}
+.locations{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+    row-gap: 50px;
+    margin-top: 70px;
+    margin-left: 500px;
+    margin-right:500 ;
+    max-width: 900px;
+    width: 100%;
+    
+}
+.item{
+    text-align: center;
+    border:1px solid #ccc ;
+    padding: 15px;
+    border-radius: 6px;
+    background: color #f9f9f9;;
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: lighter;
+    font-size: 22px;
+}
+.foot{
+    width: 100%;
+    background-color: #f9f9f9;
+    height: 500px;
+    margin-top: 70px;
+}
+.logo2{
+    font-family: "Funnel Sans", sans-serif;
+    color: hsl(0, 100%, 0%);
+    font-weight: 950;
+    font-size: 40px;
+    font-weight: 500px;
+    font-style: italic;
+    margin-top:-450px;
+    margin-left: 520px
+}
+.btn2{
+    margin-left: 1250px;
+    margin-top:-50px ;
+}
+.first{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: 20px;
+    margin-left: 520px;
+    margin-top: 20px;
+}
+.about{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: lighter;
+    margin-left: 520px;
+    margin-top: 10px;
+   list-style: none;
+   color: gray;
+   font-size: 15px;
+}
+.second{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: 20px;
+    margin-left: 750px;
+    margin-top: -163px;
+}
+.app{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: lighter;
+    margin-left: 750px;
+    margin-top: 7px;
+    list-style: none;
+    color: gray;
+    font-size: 15px;
+}
+.third{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: 20px;
+    margin-left: 1000px;
+    margin-top: -180px;
+}
+.cust{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: lighter;
+    margin-left: 1000px;
+    margin-top: 8px;
+    list-style: none;
+    color: gray;
+    font-size: 15px;
+}
+.fourth{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: 20px;
+    margin-left: 1200px;
+    margin-top: -66px;
+}
+.more{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: lighter;
+     margin-left: 1200px;
+      margin-top: 8px;
+      list-style: none;
+      color: gray;
+      font-size: 15px;
+}
+.fifth{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: 20px;
+    margin-left: 1350px;
+    margin-top: -86px;
+}
+.media{
+    width: 25px;
+    height: 25px;
+}
+.logo3{
+    margin-left: 1350px;
+    margin-top: 15px;
+}
+.store1{
+    width: 130px;
+    height: 130px;
+    margin-left: 1350px;
+    margin-top: -20px;
+}
+.store2{
+    width: 130px;
+    height: 130px;
+    margin-left: 1350px;
+}
+.st{
+    margin-top: -70px;
+}
+hr{
+    margin: 0px 400px 0px 505px;
+}
+.last{
+    font-family: "Funnel Sans", sans-serif;
+    font-weight: lighter;
+    color: gray;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 505px;
+    margin-right: 350px;
+    text-align: left;
+}
